@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Login Form </title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-form">
+    <form>
+      <h1>Login</h1>
+      <div class="content">
+        <div class="input-field">
+          <input id="email" type="email" placeholder="Email" autocomplete="nope" required>
+        </div>
+        <div class="input-field">
+          <input id="password" type="password" placeholder="Password" autocomplete="new-password" required>
+        </div>
+      </div>
+      <div class="action">
+        <button onclick="validateSignIn()">Register</button>
+        <button id="signInButton" type="button" onclick="redirectToIndex()">Sign in</button>
+      </div>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

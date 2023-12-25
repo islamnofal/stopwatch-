@@ -1,0 +1,76 @@
+body, h1, form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #8c52ff;
+}
+
+form {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #495057;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.link {
+  display: block;
+  text-align: right;
+  color: #495057;
+  text-decoration: none;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: linear-gradient(to right, #8c52ff,#495057);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.signin-button {
+  background-color: #28a745;
+}
+
+.register-button {
+  background-color: #007bff;
+}
+
+button + a {
+  margin-left: 10px;
+}
